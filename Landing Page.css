@@ -1,0 +1,20 @@
+body{
+  background-color:#6C6C6C;
+  font-family: ubuntu;
+  background-image: image("Codding Cube/Img 1.png")
+}
+
+button{
+  width: 400px;
+  height: 48px;
+  background-color: #0CFA76
+}
+
+#Planos {
+  background-image: image("Codding Cube/1.png");
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}

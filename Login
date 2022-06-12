@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+	button {
+    font-family: Segoe UI;
+    font-weight: 500;
+    width: 150px;
+    height: 35px;
+    border: 0px;
+	}
+
+	button:hover {
+	background-color: #E5E5E5;
+	font-family: Segoe UI;
+  	font-weight: 900;
+    border: 0px;
+	}
+
+	input[type=text] {
+    width: 500px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    }
+
+    input[type=text]:hover {
+	background-color: #E5E5E5;
+    font-family: Segoe UI;
+  	font-weight: 900;
+
+    input[type=submit]: {
+    width: 500px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    }
+
+
+</style>
+</head>
+<body>
+
+<button>Login</button>
+<button>Cadastre-se</button><br><br>
+
+<form action="/action_page.php">
+
+  <input type="text" placeholder="Login"><br><br>
+  <input type="text" placeholder="Senha"><br><br>
+  <input type="submit" value="Entrar">
+</form>
+
+<p><a href=""> Esqueci Minha Senha </a></p>
+
+</body>
+</html>
